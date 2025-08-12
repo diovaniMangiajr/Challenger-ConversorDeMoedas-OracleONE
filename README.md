@@ -21,8 +21,8 @@ O objetivo é criar um **conversor de moedas** em Java, consumindo uma API de ta
 ## 🛠️ Tecnologias Utilizadas
 - **Java 24** (pode funcionar em versões anteriores compatíveis)
 - **IntelliJ IDEA** (IDE utilizada no desenvolvimento)
-- **API ExchangeRate** → [https://www.exchangerate-api.com](https://www.exchangerate-api.com)
-- **Gson** (para conversão de JSON ↔ Objetos Java)
+- **API ExchangeRate** → https://www.exchangerate-api.com
+- **Gson 2.10.1** (para conversão de JSON ↔ Objetos Java)
 
 ---
 
@@ -44,13 +44,13 @@ Resultado: 100 USD = 492.37 BRL
 
 ## 🧠 Boas Práticas Implementadas
 
-  Uso de final em atributos imutáveis para segurança e clareza.
+   - Uso de final em atributos imutáveis para segurança e clareza.
 
-    Responsabilidades bem definidas de cada classe.
+   - Responsabilidades bem definidas de cada classe.
 
-    Tratamento de exceções para entradas inválidas e erros de rede.
+   - Tratamento de exceções para entradas inválidas e erros de rede.
 
-    Código limpo e legível seguindo princípios do Java.
+   - Código limpo e legível seguindo princípios do Java.
 
 ## ✨ Autor
 
